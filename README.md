@@ -6,7 +6,7 @@ This repository contains all the material and information that I prepared for jo
 ## Cover Letter
 
 ## Problem Solving
-### 1. Leetcode
+### 1. [Leetcode](https://leetcode.com/)
 #### How to Leetcode Effectively:
 1. Do Breadth-First Scan of “Easy” questions from each Topic on Leetcode
     * Try to get it right on the first try
@@ -25,8 +25,8 @@ This repository contains all the material and information that I prepared for jo
 6. Towards the last month of interview prep, do the 1-month term plan in EPI on PAPER
 
  [[Reference]](https://leetcode.com/discuss/general-discussion/443629/How-to-Leetcode-Effectively)
-### 2. HankRank
-### 3. Codility
+### 2. [HankRank](https://www.hackerrank.com/)
+### 3. [Codility](https://www.codility.com/)
 
 
 ## Object-Oriented Design
