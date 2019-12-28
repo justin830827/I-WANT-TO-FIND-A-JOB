@@ -49,3 +49,4 @@ This a list from Blind who is preparing for interview with 500+ Leetcode problem
 ## Some great articles in Software engineering
 * An analysis of software jobs in Taiwan. [link](https://m.gamer.com.tw/forum/C.php?bsn=60076&page=&snA=5444020&last=)
 * The 30-minute guide to rocking your next coding interview. [link](https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/)
+* 14 Patterns to Ace Any Coding Interview Question. [link](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
