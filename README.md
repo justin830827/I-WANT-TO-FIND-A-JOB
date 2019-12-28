@@ -47,4 +47,5 @@ This a list from Blind who is preparing for interview with 500+ Leetcode problem
 * [interviewing.io/](https://interviewing.io/)
 
 ## Some great articles in Software engineering
-* An analysis of software jobs in Taiwan [link](https://m.gamer.com.tw/forum/C.php?bsn=60076&page=&snA=5444020&last=)
+* An analysis of software jobs in Taiwan. [link](https://m.gamer.com.tw/forum/C.php?bsn=60076&page=&snA=5444020&last=)
+* The 30-minute guide to rocking your next coding interview. [link](https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/)
