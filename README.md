@@ -7,7 +7,7 @@ This repository contains all the material and information that I prepared for jo
 
 ## Problem Solving
 ### 1. [Leetcode](https://leetcode.com/)
-#### How to Leetcode Effectively:
+#### How to Leetcode Effectively (If time permitted):
 1. Do Breadth-First Scan of “Easy” questions from each Topic on Leetcode
     * Try to get it right on the first try
     * Should be finishing these in < 10 minutes
@@ -24,7 +24,15 @@ This repository contains all the material and information that I prepared for jo
 5. Do a mock interview AT LEAST once a week
 6. Towards the last month of interview prep, do the 1-month term plan in EPI on PAPER
 
- [[Reference]](https://leetcode.com/discuss/general-discussion/443629/How-to-Leetcode-Effectively)
+[Original post from Leetcode](https://leetcode.com/discuss/general-discussion/443629/How-to-Leetcode-Effectively)
+
+### Core 75 Questions
+This a list from Blind who is preparing for interview with 500+ Leetcode problem and approved by others. The detail information refer to this [link](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU). There will be a folder contain the code for these questions and explanations.
+
+#### Dynamic Programming Patterns
+[Oringial post from Leetcode](https://leetcode.com/discuss/general-discussion/458695/Dynamic-Programming-Patterns)
+
+ 
 ### 2. [HankRank](https://www.hackerrank.com/)
 ### 3. [Codility](https://www.codility.com/)
 
@@ -34,3 +42,9 @@ This repository contains all the material and information that I prepared for jo
 
 ## System Design
 1. [Gainlo System Design](http://blog.gainlo.co/index.php/category/system-design-interview-questions/)
+
+## Practice Interview
+* [interviewing.io/](https://interviewing.io/)
+
+## Some great articles in Software engineering
+* An analysis of software jobs in Taiwan [link](https://m.gamer.com.tw/forum/C.php?bsn=60076&page=&snA=5444020&last=)
