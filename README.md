@@ -5,7 +5,15 @@ This repository contains all the material and information that I prepared for jo
 
 ## Cover Letter
 
+## Algorithm
+### Dynamic Programming Patterns
+* [Dynamic Programming Patterns](https://leetcode.com/discuss/general-discussion/458695/Dynamic-Programming-Patterns)
+## Programming  
+* [Special Structure for Python](https://leetcode.com/discuss/general-discussion/459791/Special-data-structures-in-Python)
+
+
 ## Problem Solving
+
 ### 1. [Leetcode](https://leetcode.com/)
 #### How to Leetcode Effectively (If time permitted):
 1. Do Breadth-First Scan of “Easy” questions from each Topic on Leetcode
@@ -29,8 +37,6 @@ This repository contains all the material and information that I prepared for jo
 ### Core 75 Questions
 This a list from Blind who is preparing for interview with 500+ Leetcode problem and approved by others. The detail information refer to this [link](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU). There will be a folder contain the code for these questions and explanations.
 
-#### Dynamic Programming Patterns
-[Oringial post from Leetcode](https://leetcode.com/discuss/general-discussion/458695/Dynamic-Programming-Patterns)
 
  
 ### 2. [HankRank](https://www.hackerrank.com/)
@@ -133,3 +139,6 @@ This a list from Blind who is preparing for interview with 500+ Leetcode problem
 * An analysis of software jobs in Taiwan. [link](https://m.gamer.com.tw/forum/C.php?bsn=60076&page=&snA=5444020&last=)
 * The 30-minute guide to rocking your next coding interview. [link](https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/)
 * 14 Patterns to Ace Any Coding Interview Question. [link](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+
+## Reference
+* [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/)
