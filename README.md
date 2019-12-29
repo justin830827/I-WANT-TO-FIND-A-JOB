@@ -41,7 +41,88 @@ This a list from Blind who is preparing for interview with 500+ Leetcode problem
 1. [SOLID Principle](https://www.youtube.com/watch?v=yxf2spbpTSw)
 
 ## System Design
+### Resources
 1. [Gainlo System Design](http://blog.gainlo.co/index.php/category/system-design-interview-questions/)
+
+### Template
+1. FEATURE EXPECTATIONS [5 min]
+   * Use cases
+   * Scenarios that will not be covered 
+   * Who will use
+   * How many will use
+   * Usage patterns
+
+
+2. ESTIMATIONS [5 min]
+   * Throughput (QPS for Read and Write queries)
+   * Latency expected from the system (for read and write queries)
+   * Read/Write ratio
+   * Traffic estimates
+      * Write (QPS, Volume of data)
+      * Read  (QPS, Volume of data)
+   * Storage estimates
+   * Memory estimates
+      * If we are using a cache, what is the kind of data we want to store in the cache
+      * How much RAM and how many machines do we need for us to achieve this?
+      * Amount of data you want to store in disk/SSD
+
+3. DESIGN GOALS [5 min]
+   * Latency and Throughput requirements
+   * Consistency vs Availability  [Weak/strong/eventual => consistency | Failover/replication => availability]
+
+4. HIGH-LEVEL DESIGN [5-10 min]
+   * APIs for Read/Write scenarios for crucial components
+   * Database schema
+   *　Basic algorithm
+   * High-level design for Read/Write scenario
+
+5. DEEP DIVE [15-20 min]
+   1. Scaling the algorithm
+   2. Scaling individual components: 
+      Availability, Consistency and Scale story for each component
+      Consistency and availability patterns
+   3. Think about the following components, how they would fit in and how it would help
+      1. DNS
+      2. CDN [Push vs Pull]
+      3. Load Balancers [Active-Passive, Active-Active, Layer 4, Layer 7]
+      4. Reverse Proxy
+      5. Application layer scaling [Microservices, Service Discovery]
+      6. DB [RDBMS, NoSQL]
+         - RDBMS: Master-slave, Master-master, Federation, Sharding, Denormalization, SQL Tuning
+         - NoSQL:
+            - Key-Value, Wide-Column, Graph, Document
+            - Fast-lookups:        
+               - RAM  [Bounded size] => Redis, Memcached
+               - AP [Unbounded size] => Cassandra, RIAK,Voldemort
+               - CP [Unbounded size] => HBase, MongoDB,Couchbase, DynamoDB
+      7. Caches
+         - Client caching, CDN caching, Web server caching, Database caching, Application caching, Cache @Query level, Cache @Object level
+         - Eviction policies:
+            - Least Recently Used(LRU)
+            - Least Frequently Used(LFU)
+            - First in First Out (FIFO)
+         - Cache Loading Policies
+            - Cache aside
+            - Write through
+            - Write behind
+            - Refresh ahead
+      8. Asynchronism
+         - Message queues
+         - Task queues
+         - Backpressure
+      9. Communication
+         - TCP
+         - UDP
+         - REST
+         - RPC
+         - Thrift
+         - GraphQL
+ 
+6. JUSTIFY [5 min]
+   * Throughput of each layer
+   * Latency caused between each layer
+   * Overall latency justification
+[Oringial post from Leetcode](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
 
 ## Practice Interview
 * [interviewing.io/](https://interviewing.io/)
