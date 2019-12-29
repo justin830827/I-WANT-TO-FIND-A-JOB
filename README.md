@@ -122,6 +122,8 @@ This a list from Blind who is preparing for interview with 500+ Leetcode problem
    * Throughput of each layer
    * Latency caused between each layer
    * Overall latency justification
+
+
 [Oringial post from Leetcode](https://leetcode.com/discuss/career/229177/My-System-Design-Template)
 
 ## Practice Interview
