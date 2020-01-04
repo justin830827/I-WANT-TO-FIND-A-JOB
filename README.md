@@ -6,6 +6,8 @@ This repository contains all the material and information that I prepared for jo
 ## Cover Letter
 
 ## Algorithm
+### Backtracking
+* [A general approach to backtracking questions](https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning))
 ### Dynamic Programming Patterns
 * [Dynamic Programming Patterns](https://leetcode.com/discuss/general-discussion/458695/Dynamic-Programming-Patterns)
 ## Programming  
