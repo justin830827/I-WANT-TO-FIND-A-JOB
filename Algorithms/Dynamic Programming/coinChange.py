@@ -1,6 +1,6 @@
 class Solution:
     def coinChange(self, coins, amount) -> int:
-        """Dynamic Programming solution for coinChange problem.
+        """Dynamic Programming solution for Coin Change problem.
 
         Args:
             coins: Given coins of different denominations.
