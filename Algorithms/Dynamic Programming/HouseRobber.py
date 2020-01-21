@@ -1,5 +1,8 @@
+from typing import List
+
+
 class Solution:
-    def rob(self, nums) -> int:
+    def rob(self, nums: List[int]) -> int:
         """Dynamic Programming solution for House Robber problem.
 
         Args:
@@ -19,7 +22,7 @@ class Solution:
             preMax, curMax = curMax, max(preMax + num, curMax)
         return curMax
 
-    def rob_circle(self, nums) -> int:
+    def rob_circle(self, nums: List[int]) -> int:
         """Dynamic Programming solution for House Robber problem if the houses arranged in a circle.
 
         Args:

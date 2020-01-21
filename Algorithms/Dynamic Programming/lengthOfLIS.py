@@ -1,5 +1,8 @@
+from typing import List
+
+
 class Solution:
-    def lengthOfLIS(self, nums) -> int:
+    def lengthOfLIS(self, nums: List[int]) -> int:
         """Dynamic Programming solution for coinChange problem.
 
         Args:

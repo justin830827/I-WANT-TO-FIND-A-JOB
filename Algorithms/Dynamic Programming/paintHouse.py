@@ -1,5 +1,8 @@
+from typing import List
+
+
 class Solution:
-    def minCost(self, costs) -> int:
+    def minCost(self, costs: List[List[int]]) -> int:
         """Dynamic Programming solution for Paint House problem.
 
         Args:

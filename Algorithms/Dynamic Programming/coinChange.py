@@ -1,5 +1,8 @@
+from typing import List
+
+
 class Solution:
-    def coinChange(self, coins, amount) -> int:
+    def coinChange(self, coins: List[int], amount: int) -> int:
         """Dynamic Programming solution for Coin Change problem.
 
         Args:
