@@ -30,7 +30,12 @@ Space Complexity: O(1)
 
 ## Leetcode Problems
 
-| LC no. | Problem                                                                                         | Difficulty |
-| :----: | :---------------------------------------------------------------------------------------------- | :--------: |
-|  704   | [Binary Search](https://leetcode.com/problems/binary-search/)                                   |   `Easy`   |
-|   33   | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) |  `Medium`  |
+Clone the problem list [here](https://leetcode.com/list/xicd2ynj)
+
+| LC no. | Problem                                                                                                             | Difficulty | Solution | Follow-up |
+| :----: | :------------------------------------------------------------------------------------------------------------------ | :--------: | :------: | :-------- |
+|  704   | [Binary Search](https://leetcode.com/problems/binary-search/)                                                       |   `Easy`   |   link   | 702, 74   |
+|  702   | [Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) |  `Medium`  |   link   |           |
+|   74   | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                             |  `Medium`  |   link   | 240,      |
+|  240   | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                       |  `Medium`  |   link   |           |
+|   33   | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                     |  `Medium`  |   link   |           |
