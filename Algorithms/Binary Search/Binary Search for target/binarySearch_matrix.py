@@ -5,7 +5,7 @@ class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         """
         Args:
-            matrix: Given a sorted (in ascending order) integer matrix.
+            matrix: Given a sorted (in ascending order) integer m x n matrix.
             target: the value as our target in matrix
 
         Returns:
