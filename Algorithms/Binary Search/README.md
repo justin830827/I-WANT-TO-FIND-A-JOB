@@ -58,18 +58,19 @@ The second one is the correct way to aviod **overflow**, even though there won't
 
 Clone the problem list [here](https://leetcode.com/list/xicd2ynj)
 
-| LC no. | Problem                                                                                                             | Difficulty |                Solution                 | Follow-up   |  Freq.   |
-| :----: | :------------------------------------------------------------------------------------------------------------------ | :--------: | :-------------------------------------: | :---------- | :------: |
-|  278   | [First Bad Version](https://leetcode.com/problems/first-bad-version/)                                               |   `Easy`   | [link](./binarySearch_1stBadVersion.py) |             | `Medium` |
-|  704   | [Binary Search](https://leetcode.com/problems/binary-search/)                                                       |   `Easy`   |        [link](./binarySearch.py)        | 702, 74, 33 |  `Low`   |
-|  702   | [Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) |  `Medium`  | [link](./binarySearch_unknown_size.py)  |             |  `Low`   |
-|   74   | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                             |  `Medium`  |    [link](./binarySearch_matrix.py)     | 240,        | `Medium` |
-|  240   | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                       |  `Medium`  |   [link](./binarySearch_matrixII.py)    |             |  `High`  |
-|   33   | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                     |  `Medium`  | [link](./binarySearch_rotated_array.py) | 81          |  `High`  |
-|   81   | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)               |  `Medium`  |                  link                   |             | `Medium` |
+| LC no. | Problem                                                                                                             | Difficulty |                 Solution                  | Follow-up   |  Freq.   |
+| :----: | :------------------------------------------------------------------------------------------------------------------ | :--------: | :---------------------------------------: | :---------- | :------: |
+|  278   | [First Bad Version](https://leetcode.com/problems/first-bad-version/)                                               |   `Easy`   |  [link](./binarySearch_1stBadVersion.py)  |             | `Medium` |
+|  704   | [Binary Search](https://leetcode.com/problems/binary-search/)                                                       |   `Easy`   |         [link](./binarySearch.py)         | 702, 74, 33 |  `Low`   |
+|  702   | [Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) |  `Medium`  |  [link](./binarySearch_unknown_size.py)   |             |  `Low`   |
+|   74   | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                             |  `Medium`  |     [link](./binarySearch_matrix.py)      | 240,        | `Medium` |
+|  240   | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                       |  `Medium`  |    [link](./binarySearch_matrixII.py)     |             |  `High`  |
+|   33   | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                     |  `Medium`  |  [link](./binarySearch_rotated_array.py)  | 81          |  `High`  |
+|   81   | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)               |  `Medium`  | [link](./binarySearch_rotated_arrayII.py) |             | `Medium` |
 
 ### Reference
 
 - [花花酱 LeetCode Binary Search - 刷题找工作 SP5](https://zxi.mytechroad.com/blog/sp/sp5-binary-search/)
 - [Binary Search on GeeksforGeeks](https://www.geeksforgeeks.org/binary-search/)
 - [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20题解%20-%20二分查找.md)
+- [Leetcode.Wang](https://leetcode.wang)

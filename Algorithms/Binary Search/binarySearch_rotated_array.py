@@ -122,7 +122,7 @@ class Solution:
             if nums[pivot] > nums[0]:
 
                 # target on left-sided subarray
-                if nums[0] <= target < nums[pivot]:
+                if nums[left] <= target < nums[pivot]:
                     right = pivot
 
                 # tatget is on right-sided subarray
@@ -131,7 +131,7 @@ class Solution:
             # right-sided is sorted
             else:
                 # target on the right-sided subarray
-                if nums[pivot] < target <= nums[-1]:
+                if nums[pivot] < target <= nums[right - 1]:
                     left = pivot + 1
 
                 # target on the left-sided subarray
