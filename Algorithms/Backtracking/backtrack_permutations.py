@@ -52,8 +52,6 @@ class Solution:
         for i in range(len(nums)):
             if visited[i]:
                 continue
-            if i > 0 and nums[i] == nums[i-1] and not visited[i-1]:
-                continue
             cur.append(nums[i])
             visited[i] = True
             self.helper(nums, res, cur, visited)
