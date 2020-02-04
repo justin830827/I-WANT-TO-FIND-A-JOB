@@ -1,0 +1,56 @@
+from typing import List
+
+
+class Solution:
+    def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+        """Basic problem to use the Permutation template
+
+        Args:
+            candidates: Given a set of integers, may contain duplicates.
+
+        Returns:
+            return all possible solutions.
+
+        Example:
+            Input: [1,1,2]
+            Output:
+            [
+                [1,1,2],
+                [1,2,1],
+                [2,1,1]
+            ]
+
+        Time Complexity: O(n * 2^n)
+        Space Complexity: O(2^n) 
+        """
+        res, visited = [], [False for _ in range(len(nums))]
+        if not nums:
+            return res
+        self.helper(nums, res, [], visited)
+
+        return res
+
+    def helper(self, nums, res, cur, visited):
+        """Main backtracking function
+
+        Args:
+            res: A List to save the all possible solutions.
+            nums: The same input. i.e. Given a set of distinct integers.
+            cur: A List to save the current solution.
+            visited: A list to record which point has been visited.
+
+        Returns:
+            None
+
+        """
+        if len(cur) == len(nums):
+            res.append(cur[:])
+
+        for i in range(len(nums)):
+            if visited[i]:
+                continue
+            cur.append(nums[i])
+            visited[i] = True
+            self.helper(nums, res, cur, visited)
+            cur.pop()
+            visited[i] = False

@@ -2,8 +2,8 @@ from typing import List
 
 
 class Solution:
-    def subsets(self, nums: List[int]) -> List[List[int]]:
-        """Basic problem to use the Backtracking template
+    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+        """Basic problem to use the Combination template
 
         Args:
             nums: Given a set of integers with duplicate.

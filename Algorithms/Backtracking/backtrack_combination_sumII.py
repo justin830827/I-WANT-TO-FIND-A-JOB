@@ -3,7 +3,7 @@ from typing import List
 
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
-        """Basic problem to use the Backtracking template
+        """Basic problem to use the Combination template
 
         Args:
             candidates: Given a set of integers, may contain duplicates.
