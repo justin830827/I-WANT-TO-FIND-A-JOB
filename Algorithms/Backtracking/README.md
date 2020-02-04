@@ -22,24 +22,31 @@ def backtracking(self, arr: List[Any]) -> List[Any]:
     return res
 
 def helper(res: List[Any], cur: List[Any], nums: List[Any], start: int) -> None:
-    res.append(cur[:]) # Note: use cur[:] to treat as different object.
+    if f(cur):  # Optional: add the coniditon to filter the solutions.
+        res.append(cur[:]) # Note: use cur[:] to treat as different object.
     for i in range(start, len(nums)):
-        cur.append(nums[i]) # Choose
-        helper(res, cur, nums, i + 1) # Explore
-        cur.pop()   # Un-choose
+        if i > start and nums[i] == nums[i-1]:  # Optional: skip duplicates
+            continue
+        if g(cur):  # Optional: backtrack on certain condition
+            cur.append(nums[i]) # Choose
+            helper(res, cur, nums, i + 1) # Explore
+            cur.pop()   # Un-choose
 ```
 
 Time Complextiy: O(n \* 2^n)
+
 Space Complexity: O(2^n)
 
 ## Leetcode Problems
 
 Clone the problem list [here](https://leetcode.com/list/xt2fsyae)
 
-| LC no. | Problem                                                 | Difficulty |            Solution            | Follow-up |  Freq.   |
-| :----: | :------------------------------------------------------ | :--------: | :----------------------------: | :-------- | :------: |
-|   78   | [Subsets](https://leetcode.com/problems/subsets/)       |  `Medium`  | [link](./backtrack_subsets.py) | 90,       | `Medium` |
-|   90   | [Subsets II](https://leetcode.com/problems/subsets-ii/) |  `Medium`  |              link              |           | `Medium` |
+| LC no. | Problem                                                              | Difficulty |                Solution                 | Follow-up |  Freq.   |
+| :----: | :------------------------------------------------------------------- | :--------: | :-------------------------------------: | :-------- | :------: |
+|   78   | [Subsets](https://leetcode.com/problems/subsets/)                    |  `Medium`  |     [link](./backtrack_subsets.py)      | 90,       | `Medium` |
+|   90   | [Subsets II](https://leetcode.com/problems/subsets-ii/)              |  `Medium`  |    [link](./backtrack_subsetsII.py)     |           | `Medium` |
+|   39   | [Combination Sum](https://leetcode.com/problems/combination-sum/)    |  `Medium`  |  [link](/backtrack_combination_sum.py)  | 40,       | `Medium` |
+|   40   | [Combination Sum II](https://leetcode.com/problems/combination-sum/) |  `Medium`  | [link](/backtrack_combination_sumII.py) |           | `Medium` |
 
 ## Reference:
 
