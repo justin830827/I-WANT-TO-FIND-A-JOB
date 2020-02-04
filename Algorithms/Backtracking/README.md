@@ -6,7 +6,7 @@ Backtracking is used when you need to find the correct series of choices that wi
 
 1. Choose: choose the start point.
 2. Explore: find the solutions recusively with constraints.
-3. Un-choose:
+3. Un-choose: undo the previous choice to explor next one.
 
 We generally use Backtracking to find all the possible solutions or check whether there is a solution recursively.
 
@@ -25,7 +25,7 @@ def helper(res: List[Any], cur: List[Any], nums: List[Any], start: int) -> None:
     res.append(cur[:]) # Note: use cur[:] to treat as different object.
     for i in range(start, len(nums)):
         cur.append(nums[i]) # Choose
-        backtrack(res, cur, nums, i + 1) # Explore
+        helper(res, cur, nums, i + 1) # Explore
         cur.pop()   # Un-choose
 ```
 
