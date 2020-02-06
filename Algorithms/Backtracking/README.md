@@ -93,7 +93,7 @@ Clone the problem list [here](https://leetcode.com/list/xt2fsyae)
 |   39   | [Combination Sum](https://leetcode.com/problems/combination-sum/)    |  `Medium`  |  [Combination](./backtrack_combination_sum.py)  | 40,       | `Medium` |
 |   40   | [Combination Sum II](https://leetcode.com/problems/combination-sum/) |  `Medium`  | [Combination](./backtrack_combination_sumII.py) |           | `Medium` |
 |   46   | [Permutations](https://leetcode.com/problems/permutations/)          |  `Medium`  |   [Permutation](./backtrack_permutations.py)    | 47, 60    |  `High`  |
-|   47   | [Permutations II](https://leetcode.com/problems/permutations-ii/)    |  `Medium`  |  [Permutation](./backtrack_permutationsII.py)   | 31,267    |
+|   47   | [Permutations II](https://leetcode.com/problems/permutations-ii/)    |  `Medium`  |  [Permutation](./backtrack_permutationsII.py)   | 31, 267   | `Medium` |
 
 ## Reference:
 
