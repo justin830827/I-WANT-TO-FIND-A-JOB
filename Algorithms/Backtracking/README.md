@@ -23,7 +23,7 @@ def backtracking(self, arr: List[any]) -> List[any]:
 
     return res
 
-def helper(res: List[any], cur: List[any], arr: List[any], start: int) -> None:
+def helper(self, res: List[any], cur: List[any], arr: List[any], start: int) -> None:
     if f(cur):  # Optional: add the coniditon to filter the solutions.
         res.append(cur[:])  # Note: use cur[:] to treat as different object.
     for i in range(start, len(arr)):
@@ -40,12 +40,13 @@ def helper(res: List[any], cur: List[any], arr: List[any], start: int) -> None:
 ```python
 def backtracking(self, arr: List[any]) -> List[Any]:
     res = []    # A list to save the results
-    visited = [False for _ in range(len(arr))]    # A list to record the point has been visited
-    self.helper(res, [], nums, visited) # call the initial recursion
+    if not res: return res  # Corner case
+    visited = [False for _ in range(len(arr))]    # A list to record the points have been visited
+    self.helper(res, [], nums, visited) # Call the initial recursion
 
     return res
 
-def helper(res: List[any], cur: List[any], arr: List[any], visited: List[bool]) -> None:
+def helper(self, res: List[any], cur: List[any], arr: List[any], visited: List[bool]) -> None:
     if len(cur) == len(arr):
         res.append(cur[:]) # Note: use cur[:] to treat as different object.
     for i in range(len(arr)):
@@ -69,13 +70,63 @@ def helper(res: List[any], cur: List[any], arr: List[any], visited: List[bool]) 
 #### Combination
 
 ```java
-TODO
+public List<List<Integer>> subsetsWithDup(int[] nums) {
+    List<List<Integer>> res = new ArrayList<>();    // A ArrayList to save the results.
+    if (nums.length == 0) return res;
+    Arrays.sort(nums);  // Optional: only need to sort in advance with input containing duplicates.
+    helper(res, new ArrayList<>(), nums, 0);    // Call the inital recursion.
+    return res;
+
+}
+
+private void helper(List<List<Integer>> res, List<Integer> cur, int[] nums, int start) {
+    if (f(cur)) { // Optional: add the coniditon to filter the solutions.
+        res.add(new ArrayList(cur));    // Note: create a new ArrayList to treat as different object.
+    }
+
+    for (int i = start; i < nums.length; i++) {
+        if (i > start && nums[i-1] == nums[i]) continue;    // Optional: Skip duplicates.
+        if (g(cur)) {   // Optional: backtrack on certain condition.
+            cur.add(nums[i]);   // Choose
+            helper(res, cur, nums, i + 1);  // Explore
+            cur.remove(cur.size() - 1); // Un-choose
+        }
+
+    }
+}
+
 ```
 
 #### Permutation
 
 ```java
-TODO
+public List<List<Integer>> permute(int[] nums) {
+    List<List<Integer>> res = new ArrayList<>();    // A ArrayList to save the results.
+    if(nums.length == 0) return res;
+    boolean[] visited = new boolean[nums.length];   // A boolean list to record the points have been. visited
+    helper(res, new ArrayList<>(), nums, visited);  // Call the inital recursion.
+    return res;
+}
+
+private void helper(List<List<Integer>> res, List<Integer> cur, int[] nums, boolean[] visited){
+    if (cur.size() == nums.length) {
+        res.add(new ArrayList(cur)); // Note: create a new ArrayList to treat as different object.
+    }
+
+
+    for (int i = 0; i < nums.length; i++) {
+        if (visited[i]) continue;   // Skip visited point.
+        if (i > 0 && nums[i] == nums[i-1] && !visited[i]) continue; // Optional: skip duplicates
+        if (g(cur)) { // Optional: backtrack on certain condition
+            cur.add(nums[i]);   // Choose
+            visited[i] = true;  // Choose, update visited
+            helper(res, cur, nums, visited);    // Explore
+            cur.remove(cur.size() - 1); // Un-choose
+            visited[i] = false;
+        }
+
+    }
+}
 ```
 
 Time Complextiy: O(n \* 2^n)
