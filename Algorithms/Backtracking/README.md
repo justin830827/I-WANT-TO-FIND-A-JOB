@@ -75,17 +75,18 @@ public List<List<Integer>> subsetsWithDup(int[] nums) {
     if (nums.length == 0) return res;
     Arrays.sort(nums);  // Optional: only need to sort in advance with input containing duplicates.
     helper(res, new ArrayList<>(), nums, 0);    // Call the inital recursion.
+
     return res;
 
 }
 
 private void helper(List<List<Integer>> res, List<Integer> cur, int[] nums, int start) {
-    if (f(cur)) { // Optional: add the coniditon to filter the solutions.
+    if (f(cur)) // Optional: add the coniditon to filter the solutions.
         res.add(new ArrayList(cur));    // Note: create a new ArrayList to treat as different object.
-    }
 
     for (int i = start; i < nums.length; i++) {
-        if (i > start && nums[i-1] == nums[i]) continue;    // Optional: Skip duplicates.
+        if (i > start && nums[i-1] == nums[i])  // Optional: Skip duplicates.
+            continue;
         if (g(cur)) {   // Optional: backtrack on certain condition.
             cur.add(nums[i]);   // Choose
             helper(res, cur, nums, i + 1);  // Explore
@@ -105,6 +106,7 @@ public List<List<Integer>> permute(int[] nums) {
     if(nums.length == 0) return res;
     boolean[] visited = new boolean[nums.length];   // A boolean list to record the points have been. visited
     helper(res, new ArrayList<>(), nums, visited);  // Call the inital recursion.
+
     return res;
 }
 
@@ -115,9 +117,11 @@ private void helper(List<List<Integer>> res, List<Integer> cur, int[] nums, bool
 
 
     for (int i = 0; i < nums.length; i++) {
-        if (visited[i]) continue;   // Skip visited point.
-        if (i > 0 && nums[i] == nums[i-1] && !visited[i]) continue; // Optional: skip duplicates
-        if (g(cur)) { // Optional: backtrack on certain condition
+        if (visited[i]) // Skip visted point
+            continue;
+        if (i > 0 && nums[i] == nums[i-1] && !visited[i])   // Optional: skip duplicates
+            continue;
+        if (g(cur)) {       // Optional: backtrack on certain condition
             cur.add(nums[i]);   // Choose
             visited[i] = true;  // Choose, update visited
             helper(res, cur, nums, visited);    // Explore
