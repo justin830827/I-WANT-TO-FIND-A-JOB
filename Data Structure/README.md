@@ -1,6 +1,6 @@
 # Data Structues
 
-In this folder, we will discuss some important DSs and the declaration on different programming lanuage. The outline inspired from the bppk [Cracking the Code Interview](http://www.crackingthecodinginterview.com).
+In this folder, we will discuss some important DSs and the declaration on different programming lanuage. The outline inspired from the book [Cracking the Code Interview](http://www.crackingthecodinginterview.com).
 
 ## Array
 
