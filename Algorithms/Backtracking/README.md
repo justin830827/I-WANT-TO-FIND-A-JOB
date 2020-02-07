@@ -38,7 +38,7 @@ def helper(self, res: List[any], cur: List[any], arr: List[any], start: int) -> 
 #### Permutation
 
 ```python
-def backtracking(self, arr: List[any]) -> List[Any]:
+def backtracking(self, arr: List[any]) -> List[any]:
     res = []    # A list to save the results
     if not res: return res  # Corner case
     visited = [False for _ in range(len(arr))]    # A list to record the points have been visited
@@ -70,7 +70,7 @@ def helper(self, res: List[any], cur: List[any], arr: List[any], visited: List[b
 #### Combination
 
 ```java
-public List<List<Integer>> subsetsWithDup(int[] nums) {
+public List<List<Integer>> backtracking(int[] nums) {
     List<List<Integer>> res = new ArrayList<>();    // A ArrayList to save the results.
     if (nums.length == 0) return res;
     Arrays.sort(nums);  // Optional: only need to sort in advance with input containing duplicates.
@@ -101,7 +101,7 @@ private void helper(List<List<Integer>> res, List<Integer> cur, int[] nums, int 
 #### Permutation
 
 ```java
-public List<List<Integer>> permute(int[] nums) {
+public List<List<Integer>> backtracking(int[] nums) {
     List<List<Integer>> res = new ArrayList<>();    // A ArrayList to save the results.
     if(nums.length == 0) return res;
     boolean[] visited = new boolean[nums.length];   // A boolean list to record the points have been. visited
@@ -115,9 +115,8 @@ private void helper(List<List<Integer>> res, List<Integer> cur, int[] nums, bool
         res.add(new ArrayList(cur)); // Note: create a new ArrayList to treat as different object.
     }
 
-
     for (int i = 0; i < nums.length; i++) {
-        if (visited[i]) // Skip visted point
+        if (visited[i]) // Skip visited point
             continue;
         if (i > 0 && nums[i] == nums[i-1] && !visited[i])   // Optional: skip duplicates
             continue;
