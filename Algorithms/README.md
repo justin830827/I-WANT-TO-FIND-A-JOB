@@ -4,4 +4,6 @@ This folder contains some common alogirthms helped to solve the Leetcode Problem
 
 ## Style Guide
 
-All the `python` comments follow the [Google Python Style Guide](http://google.github.io/styleguide/pyguide.html) and use `pylint` as linter, `Prettier` for code formatting.
+- [Python Style Guide](http://google.github.io/styleguide/pyguide.html)
+
+- [Java Style Guide](https://github.com/twitter-archive/commons/blob/master/src/java/com/twitter/common/styleguide.md#documentation)
