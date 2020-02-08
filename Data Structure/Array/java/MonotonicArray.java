@@ -20,14 +20,15 @@ public class MonotonicArray {
    *         Time Complexity: O(n), Space Complexity: O(1)
    */
   public boolean isMonotonic(int[] arr) {
-    if (arr[arr.length - 1] < arr[0])
+    if (arr[arr.length - 1] < arr[0]) {
       reverse(arr);
-
-    for (int i = 1; i < arr.length; i++) {
-      if (arr[i] < arr[i - 1])
-        return false;
     }
 
+    for (int i = 1; i < arr.length; i++) {
+      if (arr[i] < arr[i - 1]) {
+        return false;
+      }
+    }
     return true;
   }
 

@@ -25,7 +25,6 @@ class Solution:
                 ]
             Output: False
 
-
         Idea of solution:
             We only need to compare the previous row without the last element, i.e. row[:-1],
             and the current row start from the second one, i.e. row[1:] 
