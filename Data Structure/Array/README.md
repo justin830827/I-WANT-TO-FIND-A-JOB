@@ -4,12 +4,12 @@
 
 Since Array is one of the most common data structure, the following we will separate the problems into more specific subsets.
 
-- [Regular Array Problem](#regular): this type of problem is to help you to understand array manipulation and syntax.
-- Math Problems: these problem may involve some mathematical thinkings while solving the problem.
-- Hash Table: this type of problem involve hash table to solve the problem.
-- String: this type of problem focus on String manipulation.
+- [Regular Array Problem](#regular-array-problems): this type of problem is to help you to understand array manipulation and syntax.
+- [Math Problems](#math): these problem may involve some mathematical thinkings while solving the problem.
+- [Hash Table](#hash-table): this type of problem involve hash table to solve the problem.
+- [String](#string): this type of problem focus on String manipulation.
 
-### [Regular Array Problems](#regular)
+### Regular Array Problems
 
 Clone the problem list [here](https://leetcode.com/list/x8iyupb5)
 
