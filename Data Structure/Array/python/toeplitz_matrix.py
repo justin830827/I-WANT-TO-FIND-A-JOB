@@ -1,4 +1,6 @@
 from typing import List
+
+
 class Solution:
     def isToeplitzMatrix(self, matrix: List[List[int]]) -> bool:
         """Check whether a matrix is Toeplitz if every diagonal from top-left to bottom-right has the same element.
@@ -33,9 +35,10 @@ class Solution:
         Space Complexity: O(1) 
 
         """
-        if not matrix or not matrix[0]: return false
-        
-        for i in range(1,len(matrix)):
+        if not matrix or not matrix[0]:
+            return False
+
+        for i in range(1, len(matrix)):
             if matrix[i-1][:-1] != matrix[i][1:]:
                 return False
         return True

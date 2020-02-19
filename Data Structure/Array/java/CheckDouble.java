@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.HashSet;
 
 /**
  * Check if there exists two integers N and M such that N is the double of M (
@@ -32,5 +32,19 @@ public class CheckDouble {
       table.add(arr[i]);
     }
     return false;
+  }
+
+  public static void main(String args[]) {
+    int[] input1 = { 10, 2, 5, 3 };
+    boolean res1 = new CheckDouble().checkIfExist(input1);
+    System.out.println(res1);
+
+    int[] input2 = { 7, 1, 14, 11 };
+    boolean res2 = new CheckDouble().checkIfExist(input2);
+    System.out.println(res2);
+
+    int[] input3 = { 3, 1, 7, 11 };
+    boolean res3 = new CheckDouble().checkIfExist(input3);
+    System.out.println(res3);
   }
 }
