@@ -10,7 +10,7 @@ Since Array is one of the most common data structure, the following we will sepa
 
 - [Regular Array Problem](#regular-array-problems)
 - [Math](#math)
-- [](#intervals)
+- [Intervals](#intervals)
 
 #### Regular Array Problems
 
@@ -34,9 +34,11 @@ Clone the problem list [here](https://leetcode.com/list/x8iyupb5)
 
 Clone the problem list [here](https://leetcode.com/list/x8xudi6d)
 
-| LC no. | Problem                                                           | Difficulty |                                 Solution                                  | Follow-up         | Freq.  |
-| :----: | :---------------------------------------------------------------- | :--------: | :-----------------------------------------------------------------------: | :---------------- | :----: |
-|   56   | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) |  `Medium`  | [Python](./python/merge_intervals.py), [Java](./java/MergeIntervals.java) | 57, 252, 759, 986 | `High` |
+| LC no. | Problem                                                           | Difficulty |                                 Solution                                  | Follow-up         |  Freq.   |
+| :----: | :---------------------------------------------------------------- | :--------: | :-----------------------------------------------------------------------: | :---------------- | :------: |
+|   56   | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) |  `Medium`  | [Python](./python/merge_intervals.py), [Java](./java/MergeIntervals.java) | 57, 252, 759, 986 |  `High`  |
+|  252   | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)     |   `Easy`   |   [Python](./python/meeting_room.py), [Java](./java/MeetingRooms.java)    | 253,              | `Medium` |
+|  253   | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms-ii/)  |   `Easy`   | [Python](./python/meeting_room_ii.py), [Java](./java/MeetingRoomsII.java) |                   |  `High`  |
 
 ## LinkedList
 
