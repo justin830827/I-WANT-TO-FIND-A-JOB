@@ -2,25 +2,13 @@
 
 This repository contains all the material and information that I prepared for job hunting as a Software developer. Hope these information can help you receive your dream offer. May the code with you! Code long and prosper!
 
-## Resume/CV
-
-## Cover Letter
-
 ## Algorithm
 
-### Backtracking
+- [Backtracking](./Algorithms/Backtracking)
+- [Binary Search](./Algorithms/Binary%20Search)
+- [Dynamic Programming](./Algorithms/Dynamic%20Programming)
 
-- [A general approach to backtracking questions](<https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)>)
-
-### Dynamic Programming Patterns
-
-- [Dynamic Programming Patterns](https://leetcode.com/discuss/general-discussion/458695/Dynamic-Programming-Patterns)
-
-## Programming
-
-- [Special Structure for Python](https://leetcode.com/discuss/general-discussion/459791/Special-data-structures-in-Python)
-
-## Problem Solving
+## Online Practices
 
 ### 1. [Leetcode](https://leetcode.com/)
 
@@ -44,13 +32,11 @@ This repository contains all the material and information that I prepared for jo
 
 [Original post from Leetcode](https://leetcode.com/discuss/general-discussion/443629/How-to-Leetcode-Effectively)
 
-#### Some great articles on Leetcode discussion
+#### Some great resources on Leetcode discussion
 
 1. [Finally I Did it.Thanks Leetcode, Love you so much](https://leetcode.com/discuss/interview-experience/469785/Finally-I-Did-it.Thanks-Leetcode-Love-you-so-much-Microsoft-or-Offer)
 
-### Core 75 Questions
-
-This a list from Blind who is preparing for interview with 500+ Leetcode problem and approved by others. The detail information refer to this [link](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU). There will be a folder contain the code for these questions and explanations.
+2. Core 75 Questions: this a list from Blind who is preparing for interview with 500+ Leetcode problem and approved by others. The detail information refer to this [link](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU). There will be a folder contain the code for these questions and explanations.
 
 ### 2. [HankRank](https://www.hackerrank.com/)
 
