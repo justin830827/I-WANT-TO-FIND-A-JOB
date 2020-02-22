@@ -2,6 +2,13 @@
 
 This repository contains all the material and information that I prepared for job hunting as a Software developer. Hope these information can help you receive your dream offer. May the code with you! Code long and prosper!
 
+## Data Structure
+
+- Arrays
+- LinkedList
+- Stack and Queue
+- Tree, Trie and Graph
+
 ## Algorithm
 
 - [Backtracking](./Algorithms/Backtracking)
@@ -10,7 +17,7 @@ This repository contains all the material and information that I prepared for jo
 
 ## Online Practices
 
-### 1. [Leetcode](https://leetcode.com/)
+### [Leetcode](https://leetcode.com/)
 
 #### How to Leetcode Effectively (If time permitted):
 
@@ -38,19 +45,21 @@ This repository contains all the material and information that I prepared for jo
 
 2. Core 75 Questions: this a list from Blind who is preparing for interview with 500+ Leetcode problem and approved by others. The detail information refer to this [link](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-100-LeetCode-Questions-to-Save-Your-Time-OaM1orEU). There will be a folder contain the code for these questions and explanations.
 
-### 2. [HankRank](https://www.hackerrank.com/)
+### [HankerRank](https://www.hackerrank.com/)
 
-### 3. [Codility](https://www.codility.com/)
+### [AtCoder](https://atcoder.jp)
+
+### [Codewars](https://www.codewars.com/dashboard)
 
 ## Object-Oriented Design
 
-1. [SOLID Principle](https://www.youtube.com/watch?v=yxf2spbpTSw)
+- [SOLID Principle](https://www.youtube.com/watch?v=yxf2spbpTSw)
 
 ## System Design
 
 ### Resources
 
-1. [Gainlo System Design](http://blog.gainlo.co/index.php/category/system-design-interview-questions/)
+- [Gainlo System Design](http://blog.gainlo.co/index.php/category/system-design-interview-questions/)
 
 ### Template
 
