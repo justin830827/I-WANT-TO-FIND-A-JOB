@@ -24,6 +24,7 @@ Clone the problem list [here](https://leetcode.com/list/x8iyupb5)
 |  238   | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)       |  `Medium`  | [Python](./python/prodcut_except_self.py), [Java](./java/ProductExceptSelf.java) |           |  `High`  |
 |   1    | [Two Sum](https://leetcode.com/problems/two-sum/)                                                 |   `Easy`   |            [Python](./python/two_sum.py), [Java](./java/TwoSum.java)             | 1099,     |  `High`  |
 |   55   | [Jump Game](https://leetcode.com/problems/jump-game/)                                             |  `Medium`  |          [Python](./python/jump_game.py), [Java](./java/JumpGame.java)           | 45, 1306  | `Medium` |
+|   45   | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                                       |   `Hard`   |        [Python](./python/jump_game_ii.py), [Java](./java/JumpGameII.java)        | 1306,     | `Medium` |
 
 #### Math
 
