@@ -26,12 +26,6 @@ Clone the problem list [here](https://leetcode.com/list/x8iyupb5)
 |   55   | [Jump Game](https://leetcode.com/problems/jump-game/)                                             |  `Medium`  |          [Python](./python/jump_game.py), [Java](./java/JumpGame.java)           | 45, 1306  | `Medium` |
 |   45   | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                                       |   `Hard`   |        [Python](./python/jump_game_ii.py), [Java](./java/JumpGameII.java)        | 1306,     | `Medium` |
 
-#### Math
-
-| LC no. | Problem                                                                                                       | Difficulty |                                      Solution                                       | Follow-up | Freq. |
-| :----: | :------------------------------------------------------------------------------------------------------------ | :--------: | :---------------------------------------------------------------------------------: | :-------- | :---: |
-|  453   | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) |   `Easy`   | [Python](./python/min_moves_equal_array.py), [Java](./java/MinMovesEqualArray.java) | 462,      | `Low` |
-
 #### Intervals
 
 Clone the problem list [here](https://leetcode.com/list/x8xudi6d)

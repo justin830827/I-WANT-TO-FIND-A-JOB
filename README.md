@@ -14,6 +14,7 @@ This repository contains all the material and information that I prepared for jo
 - [Backtracking](./Algorithms/Backtracking)
 - [Binary Search](./Algorithms/Binary%20Search)
 - [Dynamic Programming](./Algorithms/Dynamic%20Programming)
+- [Math](./Algorithms/Math)
 
 ## Online Practices
 
