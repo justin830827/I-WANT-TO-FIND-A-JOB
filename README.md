@@ -2,9 +2,9 @@
 
 This repository contains all the material and information that I prepared for job hunting as a Software developer. Hope these information can help you receive your dream offer. May the code with you! Code long and prosper!
 
-## Data Structure
+## [Data Structure](./Data%20Structure)
 
-- Arrays
+- [Arrays](./Data%20Structure)
 - LinkedList
 - Stack and Queue
 - Tree, Trie and Graph
