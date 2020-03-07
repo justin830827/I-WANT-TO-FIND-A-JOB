@@ -24,6 +24,7 @@ Clone the problem list [here](https://leetcode.com/list/x8iyupb5)
 |   54   | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                     |  `Medium`  |      [Python](./python/spiral_matrix.py), [Java](./java/SpiralMatrix.java)       |       `Array`        | 59                | `Medium` |
 |  1366  | [Rank Teams by Votes](https://leetcode.com/problems/rank-teams-by-votes/)                         |  `Medium`  |         [Python](./python/rank_teams.py), [Java](./java/RankTeams.java)          | `Sort` + `HashTable` |                   |  `N/A`   |
 |   15   | [3 Sum](https://leetcode.com/problems/3sum/)                                                      |  `Medium`  |          [Python](./python/three_sum.py), [Java](./java/ThreeSum.java)           |    `Two Pointer`     | 16, 18, 253       |  `High`  |
+|   16   | [3Sum Closest](https://leetcode.com/problems/3sum-closest/)                                       |  `Medium`  |   [Python](./python/three_sum_closest.py), [Java](./java/ThreeSumClosest.java)   |    `Two Pointer`     | 15, 18, 253       | `Medium` |
 
 ## LinkedList
 
