@@ -1,6 +1,20 @@
 import java.util.*;
 
+/**
+ * Given an array nums of n integers and an integer target, find three integers
+ * in nums such that the sum is closest to target. Return the sum of the three
+ * integers. You may assume that each input would have exactly one solution.
+ * 
+ * Time Complexity: O(n^2), Space Complextiy: O(1)
+ */
+
 public class ThreeSumClosest {
+    /**
+     * @param nums:   an interger array with negative and duplicates.
+     * @param target: an interger
+     * @return the sum of the three integers is cloest to target. Assume that each
+     *         input would have exactly one solution.
+     */
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
         int res = Integer.MAX_VALUE - Math.abs(target); // We need to do this trick since Integer.MIN_VALUE always
