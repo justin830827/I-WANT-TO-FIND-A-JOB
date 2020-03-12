@@ -26,6 +26,7 @@ Clone the problem list [here](https://leetcode.com/list/x8iyupb5)
 |   15   | [3 Sum](https://leetcode.com/problems/3sum/)                                                      |  `Medium`  |          [Python](./python/three_sum.py), [Java](./java/ThreeSum.java)           |    `Two Pointer`     | 16, 18, 253       |  `High`  |
 |   16   | [3Sum Closest](https://leetcode.com/problems/3sum-closest/)                                       |  `Medium`  |   [Python](./python/three_sum_closest.py), [Java](./java/ThreeSumClosest.java)   |    `Two Pointer`     | 15, 18, 253       | `Medium` |
 |  560   | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                     |  `Medium`  |  [Python](./python/subarray_sum_equal.py), [Java](./java/SubarraySumEqual.java)  |     `HashTable`      | 713,              |  `High`  |
+|  128   | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)       |   `Hard`   |                [Python](./python/lcs.py), [Java](./java/LCS.java)                |      `HashSet`       |                   |  `High`  |
 
 ## LinkedList
 
