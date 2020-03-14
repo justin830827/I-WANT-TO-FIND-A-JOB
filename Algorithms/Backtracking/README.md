@@ -140,14 +140,15 @@ Space Complexity: O(2^n)
 
 Clone the problem list [here](https://leetcode.com/list/xt2fsyae)
 
-| LC no. | Problem                                                              | Difficulty |                    Solution                     | Follow-up |  Freq.   |
-| :----: | :------------------------------------------------------------------- | :--------: | :---------------------------------------------: | :-------- | :------: |
-|   78   | [Subsets](https://leetcode.com/problems/subsets/)                    |  `Medium`  |      [Combination](./backtrack_subsets.py)      | 90,       | `Medium` |
-|   90   | [Subsets II](https://leetcode.com/problems/subsets-ii/)              |  `Medium`  |     [Combination](./backtrack_subsetsII.py)     |           | `Medium` |
-|   39   | [Combination Sum](https://leetcode.com/problems/combination-sum/)    |  `Medium`  |  [Combination](./backtrack_combination_sum.py)  | 40,       | `Medium` |
-|   40   | [Combination Sum II](https://leetcode.com/problems/combination-sum/) |  `Medium`  | [Combination](./backtrack_combination_sumII.py) |           | `Medium` |
-|   46   | [Permutations](https://leetcode.com/problems/permutations/)          |  `Medium`  |   [Permutation](./backtrack_permutations.py)    | 47, 60    |  `High`  |
-|   47   | [Permutations II](https://leetcode.com/problems/permutations-ii/)    |  `Medium`  |  [Permutation](./backtrack_permutationsII.py)   | 31, 267   | `Medium` |
+| LC no. | Problem                                                              | Difficulty |    Type     |                                   Solution                                    | Follow-up |  Freq.   |
+| :----: | :------------------------------------------------------------------- | :--------: | :---------: | :---------------------------------------------------------------------------: | :-------- | :------: |
+|   78   | [Subsets](https://leetcode.com/problems/subsets/)                    |  `Medium`  | Combination |          [Python](./python/subsets.py), [Java](./java/Subsets.java)           | 90,       | `Medium` |
+|   90   | [Subsets II](https://leetcode.com/problems/subsets-ii/)              |  `Medium`  | Combination |         [Python](./python/subsetsII.py), [Java](./java/SubsetsII.py)          |           | `Medium` |
+|   39   | [Combination Sum](https://leetcode.com/problems/combination-sum/)    |  `Medium`  | Combination |   [Python](./python/combination_sum.py), [Java](./java/CombinationSum.java)   | 40, 77    | `Medium` |
+|   40   | [Combination Sum II](https://leetcode.com/problems/combination-sum/) |  `Medium`  | Combination | [Python](./python/combination_sumII.py), [Java](./java/CombinationSumII.java) |           | `Medium` |
+|   46   | [Permutations](https://leetcode.com/problems/permutations/)          |  `Medium`  | Permutation |     [Python](./python/permutations.py), [Java](./java/Permutations.java)      | 47, 60    |  `High`  |
+|   47   | [Permutations II](https://leetcode.com/problems/permutations-ii/)    |  `Medium`  | Permutation |   [Python](./python/permutationsII.py), [Java](./java/PermutationsII.java)    | 31, 267   | `Medium` |
+|   77   | [Combinations](https://leetcode.com/problems/combinations/)          |  `Medium`  | Combination |     [Python](./python/combinations.py), [Java](./java/Combinations.java)      | 40        | `Medium` |
 
 ## Reference:
 

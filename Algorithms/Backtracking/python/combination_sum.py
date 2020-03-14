@@ -21,21 +21,22 @@ class Solution:
         Space Complexity: O(2^n) 
         """
         res = []
-        if not candidates:
-            return res
-        self.helper(candidates, res, 0, [], target)
+        self.helper(res, [], candidates, target, 0, 0)
+        return res
 
         return res
 
-    def helper(self, arr: List[int], res: List[int], start: int, cur: List[int], target: int) -> None:
+    def helper(self, res: List[int], cur: List[int], candidates: List[int], target: int, start: int, cur_sum: int) -> None:
         """Main backtracking function
 
         Args:
             res: A List to save the all possible solutions.
-            arr: The same input. i.e. Given a set of distinct integers.
             cur: A List to save the current solution.
+            candidates: The same input. i.e. Given a set of distinct integers.
+            target: A interger to meet the requirement.
             start: the index start point for exploring.
-            target: A interger to meet the requirement. 
+            cur_sum: the sum of cur array.
+
 
         Returns:
             None
@@ -45,15 +46,15 @@ class Solution:
         it is relative trivial to optimize it here. 
 
         """
-
-        if sum(cur) == target:
+        if cur_sum == target:
             res.append(cur[:])
 
-        for i in range(start, len(arr)):
-            if sum(cur) < target:
-                cur.append(arr[i])
-                self.helper(arr, res, i, cur, target)
-                cur.pop()
+        for i in range(start, len(candidates)):
+            if cur_sum < target:
+                cur.append(candidates[i])
+                cur_sum += candidates[i]
+                self.helper(res, cur, candidates, target, i, cur_sum)
+                cur_sum -= cur.pop()
 
     # TODO: This question has a DP solution, will do later.
     def dp(self):
