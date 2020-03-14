@@ -124,7 +124,7 @@ The lifecycle can be broken down into 3 categories:
 
 Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
 
-### `id` vs `class` selector
+#### `id` vs `class` selector
 
 Component `id` must be unique where as `class` can be applied to many things. In CSS, `id` look like `#elementID` and `class` elements look like `.someClass`.
 
@@ -139,7 +139,7 @@ For example, considered that we have a css stylesheet as follows. `<p></p>`
 }
 ```
 
-Assume we have a component use both `id` and `class` as follows, what will be the color displayed in this case ?
+Assume we have a component use both `id` and `class` as follows, what will be the color displayed in this case.
 
 ```html
 <p id="intro" class="foo">Hello!</p>
