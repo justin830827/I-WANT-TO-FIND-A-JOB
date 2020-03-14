@@ -6,8 +6,8 @@ class Solution:
         """Basic problem to use the Combination template
 
         Args:
-            candidates: Given a set of integers, may contain duplicates.
-            target:  A interger to meet the requirement.
+            candidates: a list of integers, may contain duplicates.
+            target:  a interger to meet the requirement.
 
         Returns:
             Each number in candidates may only be used once in the combination.
@@ -39,11 +39,11 @@ class Solution:
         """Main backtracking function
 
         Args:
-            res: A List to save the all possible solutions.
-            arr: The same input. i.e. Given a set of distinct integers.
-            cur: A List to save the current solution.
+            res: a list to save the all possible solutions.
+            arr: the same input. i.e. Given a set of distinct integers.
+            cur: a list to save the current solution.
             start: the index start point for exploring.
-            target: A interger to meet the requirement. 
+            target: a interger to meet the requirement. 
 
         Returns:
             None

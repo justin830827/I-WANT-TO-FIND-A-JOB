@@ -6,8 +6,8 @@ class Solution:
         """Basic problem to use the Combination template
 
         Args:
-            candidates: Given a set of distinct integers.
-            target:  A interger to meet the requirement.
+            candidates: a set of distinct integers.
+            target:  a interger to meet the requirement.
 
         Returns:
             return all possible solutions with sum == target.
@@ -27,13 +27,13 @@ class Solution:
         return res
 
     def helper(self, res: List[int], cur: List[int], candidates: List[int], target: int, start: int, cur_sum: int) -> None:
-        """Main backtracking function
+        """
 
         Args:
-            res: A List to save the all possible solutions.
-            cur: A List to save the current solution.
-            candidates: The same input. i.e. Given a set of distinct integers.
-            target: A interger to meet the requirement.
+            res: a List to save the all possible solutions.
+            cur: a List to save the current solution.
+            candidates: the same input. i.e. Given a set of distinct integers.
+            target: a interger to meet the requirement.
             start: the index start point for exploring.
             cur_sum: the sum of cur array.
 

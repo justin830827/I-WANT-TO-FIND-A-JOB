@@ -6,7 +6,7 @@ class Solution:
         """Basic problem to use the Combination template
 
         Args:
-            nums: Given a set of distinct integers.
+            nums: a list of distinct integers.
 
         Returns:
             return all possible subsets (the power set).
@@ -23,9 +23,9 @@ class Solution:
         """Main backtracking function
 
         Args:
-            res: A List to save the all possible solutions.
-            nums: The same input. i.e. Given a set of distinct integers.
-            cur: A List to save the current solution.
+            res: a list to save the all possible solutions.
+            nums: the same input. i.e. Given a set of distinct integers.
+            cur: a list to save the current solution.
             start: the index start point for exploring. 
 
         Returns:

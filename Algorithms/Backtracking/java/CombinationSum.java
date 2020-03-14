@@ -30,7 +30,7 @@ public class CombinationSum {
      */
     private void helper(List<List<Integer>> res, List<Integer> cur, int[] candidates, int target, int start, int sum) {
         if (sum == target)
-            res.add(new ArrayList(cur));
+            res.add(new ArrayList<Integer>(cur));
         for (int i = start; i < candidates.length; i++) {
             if (sum < target) {
                 sum += candidates[i];

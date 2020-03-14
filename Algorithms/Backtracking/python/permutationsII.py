@@ -6,7 +6,7 @@ class Solution:
         """Basic problem to use the Permutation template
 
         Args:
-            candidates: Given a set of integers, may contain duplicates.
+            candidates: a list of integers, may contain duplicates.
 
         Returns:
             return all possible solutions.
@@ -34,10 +34,10 @@ class Solution:
         """Main backtracking function
 
         Args:
-            res: A List to save the all possible solutions.
-            nums: The same input. i.e. Given a set of distinct integers.
-            cur: A List to save the current solution.
-            visited: A list to record which point has been visited.
+            res: a list to save the all possible solutions.
+            nums: the same input. i.e. Given a set of distinct integers.
+            cur: a List to save the current solution.
+            visited: a list to record which point has been visited.
 
         Returns:
             None

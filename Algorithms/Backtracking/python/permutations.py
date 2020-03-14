@@ -6,7 +6,7 @@ class Solution:
         """Basic problem to use the Permutation template
 
         Args:
-            candidates: Given a set of distinct integers.
+            candidates: a list of distinct integers.
 
         Returns:
             return all possible solutions.
