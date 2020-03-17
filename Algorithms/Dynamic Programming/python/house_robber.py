@@ -17,10 +17,10 @@ class Solution:
         """
         if not nums:
             return 0
-        preMax = curMax = 0
-        for num in nums:
-            preMax, curMax = curMax, max(preMax + num, curMax)
-        return curMax
+        pre_max = cur_max = 0
+        for n in nums:
+            pre_max, cur_max = cur_max, max(pre_max + n, cur_max)
+        return cur_max
 
     def rob_circle(self, nums: List[int]) -> int:
         """Dynamic Programming solution for House Robber problem if the houses arranged in a circle.
@@ -35,15 +35,4 @@ class Solution:
         Space Complexity: O(1) 
 
         """
-        if len(nums) == 1:
-            return nums[0]
-        res = 0
-        preMax = curMax = 0
-        for num in nums[1:]:
-            preMax, curMax = curMax, max(preMax + num, curMax)
-        res = max(res, curMax)
-        preMax = curMax = 0
-        for num in nums[:-1]:
-            preMax, curMax = curMax, max(preMax + num, curMax)
-        res = max(res, curMax)
-        return res
+        return nums[0] if len(nums) == 1 else max(self.rob(nums[1:]), self.rob(nums[:-1]))

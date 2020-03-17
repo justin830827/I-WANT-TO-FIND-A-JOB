@@ -4,7 +4,7 @@ This repository contains all the material and information that I prepared for jo
 
 ## [Data Structure](./Data%20Structure)
 
-- [Arrays](./Data%20Structure)
+- [Arrays](./Data%20Structure#Array-and-String)
 - LinkedList
 - Stack and Queue
 - Tree, Trie and Graph
@@ -175,3 +175,5 @@ This repository contains all the material and information that I prepared for jo
 ## Reference
 
 - [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/)
+- [leetcode.wang](https://leetcode.wang/)
+- [Huahua's Tech Road](https://zxi.mytechroad.com/blog/)
