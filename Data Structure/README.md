@@ -30,6 +30,10 @@ Clone the problem list [here](https://leetcode.com/list/x8iyupb5)
 
 ## LinkedList
 
+|  #  | Problem                                                                                             | Difficulty |                                 Solution                                 | Follow-up |  Freq.   |
+| :-: | :-------------------------------------------------------------------------------------------------- | :--------: | :----------------------------------------------------------------------: | :-------- | :------: |
+| 19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |  `Medium`  | [Python](./python/remove_nth_node.py), [Java](./java/RemoveNthNode.java) |           | `Medium` |
+
 ## Stack and Queue
 
 ## Tree, Trie and Graph
@@ -38,7 +42,7 @@ Clone the problem list [here](https://leetcode.com/list/x8iyupb5)
 
 - [Cracking the Code Interview 6th edition](http://www.crackingthecodinginterview.com)
 
-## Style Guild
+## Style Guilde
 
 - [Python Style Guide](http://google.github.io/styleguide/pyguide.html)
 
