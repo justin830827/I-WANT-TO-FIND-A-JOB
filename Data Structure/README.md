@@ -30,9 +30,10 @@ Clone the problem list [here](https://leetcode.com/list/x8iyupb5)
 
 ## LinkedList
 
-|  #  | Problem                                                                                             | Difficulty |                                 Solution                                 | Follow-up |  Freq.   |
-| :-: | :-------------------------------------------------------------------------------------------------- | :--------: | :----------------------------------------------------------------------: | :-------- | :------: |
-| 19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |  `Medium`  | [Python](./python/remove_nth_node.py), [Java](./java/RemoveNthNode.java) |           | `Medium` |
+|  #   | Problem                                                                                                                                 | Difficulty |                                 Solution                                 | Follow-up |  Freq.   |
+| :--: | :-------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------------------------------------------------------------------: | :-------- | :------: |
+|  19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)                                     |  `Medium`  | [Python](./python/remove_nth_node.py), [Java](./java/RemoveNthNode.java) |           | `Medium` |
+| 1171 | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) |  `Medium`  | [Python](./python/remove_zero_sum.py), [Java](./java/RemoveZeroSum.java) |           |  `Low`   |
 
 ## Stack and Queue
 
