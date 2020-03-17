@@ -5,9 +5,9 @@ This repository contains all the material and information that I prepared for jo
 ## [Data Structure](./Data%20Structure)
 
 - [Arrays](./Data%20Structure#Array-and-String)
-- LinkedList
-- Stack and Queue
-- Tree, Trie and Graph
+- [LinkedList](./Data%20Structure#LinkedList)
+- [Stack and Queue](./Data%20Structure#Stack-and-Queue)
+- [Tree, Trie and Graph](./Data%20Structure#Tree,-Trie-and-Graph)
 
 ## Algorithm
 
