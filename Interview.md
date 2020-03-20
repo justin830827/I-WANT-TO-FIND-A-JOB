@@ -16,6 +16,7 @@ Most interviews consist with few stages as follows.
 List of Technical knowledge:
 
 - [Object-Oriented Programming](#Object-Oriented-Programming)
+- [System](#System)
 - [Design Patterns](#Design-Patterns)
 - [React](#React)
 - [Cascading Style Sheets(CSS)](<#Cascading-Style-Sheets(CSS)>)
@@ -38,6 +39,26 @@ Object Oriented Programming (OOP) is a programming paradigm where the complete s
 
 - **Abstraction:** Abstraction is a very important feature of OOPs that allows displaying only the important information and hiding the implementation details. For example, while riding a bike, you know that if you raise the accelerator, the speed will increase, but you don’t know how it actually happens. This is data abstraction as the implementation details are hidden from the rider.
 
+#### Object vs Class
+
+| Object                                                                                      | Class                                                                    |
+| :------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------- |
+| Object is an **instance** of a class.                                                       | Class is a **blueprint** or **template** from which objects are created. |
+| Object is a real world entity such as pen, laptop, mobile, bed, keyboard, mouse, chair etc. | Class is a group of similar objects.                                     |
+| Object is a **physical** entity.                                                            | Class is a **logical** entity.                                           |
+| Object is created through **new** keyword mainly e.g. Student s1=new Student();             | Class is declared using **class** keyword e.g.class Student{}            |
+| Object is created **many times** as per requirement.                                        | Class is declared **once**.                                              |
+| Object **allocates memory** when it is created.                                             | Class **doesn't allocated memory** when it is created.                   |
+
+Example:
+
+| Class |              Object              |
+| :---: | :------------------------------: |
+| Human |            Man, Woman            |
+| Fruit | Apple, Banana, Mango, Guava wtc. |
+| Food  |      Pizza, Burger, Samosa       |
+|  Car  |       Sedan, SUV, Mini Van       |
+
 #### Multiple inheritance vs Multilevel inheritance
 
 | Multiple inheritance                                                                   | Multilevel inheritance                                                                                                  |
@@ -51,6 +72,41 @@ Object Oriented Programming (OOP) is a programming paradigm where the complete s
 - **Overriding:** Method overriding is a feature of OOPs by which the child class or the subclass can redefine methods present in the base class or parent class. Here, the method that is overridden has the same name as well as the signature meaning the arguments passed and the return type.
 
 #### SOLID Principles
+
+### System
+
+#### Memory Model
+
+- int : integer number : 4-bytes
+- short : integer number : 2-bytes
+- long : integer number : 8-bytes
+- char : character : 1-byte
+- float : floating point number : 4-bytes
+- double : floating point number : 8-bytes
+
+#### Memory Leak
+
+Memory leak is a type of resource leak that occurs when a computer program incorrectly manages memory allocations in such a way that memory which is no longer needed is not released. A memory leak may also happen when an object is stored in memory but cannot be accessed by the running code. This situation mostly occurs in C/C++ program. (Jave has GC to handle the unused reference)
+
+Example:
+
+```
+When a button is pressed:
+  Get some memory, which will be used to remember the floor number
+  Put the floor number into the memory
+  Are we already on the target floor?
+    If so, we have nothing to do: finished
+    Otherwise:
+      Wait until the lift is idle
+      Go to the required floor
+      Release the memory we used to remember the floor number
+```
+
+The memory leak would occur if the floor number requested is the same floor that the elevator is on; the condition for releasing the memory would be skipped. Each time this case occurs, more memory is leaked.
+
+Cases like this wouldn't usually have any immediate effects. People do not often press the button for the floor they are already on, and in any case, the elevator might have enough spare memory that this could happen hundreds or thousands of times. However, the elevator will eventually run out of memory. This could take months or years, so it might not be discovered despite thorough testing.
+
+Source: [Wikipedia](https://en.wikipedia.org/wiki/Memory_leak)
 
 ### Design Patterns
 
