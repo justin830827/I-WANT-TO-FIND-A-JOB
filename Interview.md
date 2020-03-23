@@ -71,6 +71,14 @@ Example:
 - **Overloading:** Method overloading is a feature of OOPs which makes it possible to give the same name to more than one methods within a class if the arguments passed differ.
 - **Overriding:** Method overriding is a feature of OOPs by which the child class or the subclass can redefine methods present in the base class or parent class. Here, the method that is overridden has the same name as well as the signature meaning the arguments passed and the return type.
 
+#### Constructor
+
+A constructor is a member function of a class which initializes objects of a class. Constructor is automatically called when object(instance of class) create. It is special member function of the class.
+
+- Default Constructors: Default constructor is the constructor which doesn’t take any argument. It has no parameters.
+- Parameterized Constructors: It is possible to pass arguments to constructors. Typically, these arguments help initialize an object when it is created. To create a parameterized constructor, simply add parameters to it the way you would to any other function. When you define the constructor’s body, use the parameters to initialize the object.
+- Copy Constructor: A copy constructor is a member function which initializes an object using another object of the same class
+
 #### SOLID Principles
 
 ### System
@@ -147,6 +155,12 @@ Decorator pattern allows a user to add new functionality to an existing object w
 #### Observer
 
 Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, its depenedent objects are to be notified automatically. Observer pattern falls under behavioral pattern category.
+
+### Algorithms
+
+#### Sorting Algorithm
+
+##### Quick Sort
 
 ### React
 

@@ -27,6 +27,7 @@ Clone the problem list [here](https://leetcode.com/list/x8iyupb5)
 |  16  | [3Sum Closest](https://leetcode.com/problems/3sum-closest/)                                       |  `Medium`  |   [Python](./python/three_sum_closest.py), [Java](./java/ThreeSumClosest.java)   |    `Two Pointer`     | 15, 18, 253       | `Medium` |
 | 560  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                     |  `Medium`  |  [Python](./python/subarray_sum_equal.py), [Java](./java/SubarraySumEqual.java)  |     `HashTable`      | 713,              |  `High`  |
 | 128  | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)       |   `Hard`   |                [Python](./python/lcs.py), [Java](./java/LCS.java)                |      `HashSet`       |                   |  `High`  |
+| 1057 | [Campus Bikes](https://leetcode.com/problems/campus-bikes/)                                       |  `Medium`  |                        [Python](./python/campus_bikes.py)                        |        `Sort`        |                   | `Medium` |
 
 ## LinkedList
 
@@ -34,6 +35,8 @@ Clone the problem list [here](https://leetcode.com/list/x8iyupb5)
 | :--: | :-------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------------------------------------------------------------------: | :-------- | :------: |
 |  19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)                                     |  `Medium`  | [Python](./python/remove_nth_node.py), [Java](./java/RemoveNthNode.java) |           | `Medium` |
 | 1171 | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) |  `Medium`  | [Python](./python/remove_zero_sum.py), [Java](./java/RemoveZeroSum.java) |           |  `Low`   |
+| 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                                                               |   `Easy`   |                                                                          | 234       |  `High`  |
+| 234  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                         |   `Easy`   |                                                                          |           | `Meidum` |
 
 ## Stack and Queue
 
