@@ -2,7 +2,9 @@
 
 In this folder, we will discuss some important DSs and the declaration on different programming lanuage. The outline inspired from the book [Cracking the Code Interview](http://www.crackingthecodinginterview.com).
 
-## Array and String
+## Array and List
+
+An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together. When we declare an array in program, the memory assign a fixed size of space for the array. A list is an object which holds variables in a specific order.
 
 ### Leetcode Problems
 
@@ -29,7 +31,34 @@ Clone the problem list [here](https://leetcode.com/list/x8iyupb5)
 | 128  | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)       |   `Hard`   |                [Python](./python/lcs.py), [Java](./java/LCS.java)                |      `HashSet`       |                   |  `High`  |
 | 1057 | [Campus Bikes](https://leetcode.com/problems/campus-bikes/)                                       |  `Medium`  |                        [Python](./python/campus_bikes.py)                        |        `Sort`        |                   | `Medium` |
 
+## Characters and String
+
+A string is a data type used in programming, it is comprised of a set of characters that can also contain spaces and numbers. String is immutable in most cases.
+
+### String vs String Buffer vs String Builder
+
+This is a popular interview question in Java.
+
+|  Parameter  |               String               |                  String Buffer                   |            String Builder             |
+| :---------: | :--------------------------------: | :----------------------------------------------: | :-----------------------------------: |
+|   Storage   |            String Pool             |                       Heap                       |                 Heap                  |
+| Mutability  |             Immutable              |                     Mutable                      |                Mutable                |
+| Thread Safe | Not used in a threaded environment |       Used in a multi-threaded environment       | Used in a single-threaded environment |
+| Performance |                Slow                | Slower than StringBuilder but faster than String |       Faster than StringBuffer        |
+
+### Leetcode Problems
+
+Clone the problem list [here](https://leetcode.com/list/xicddurd)
+
+|  #  | Problem                                                             | Difficulty |                                  Solution                                   | Follow-up | Freq.  |
+| :-: | :------------------------------------------------------------------ | :--------: | :-------------------------------------------------------------------------: | :-------- | :----: |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) |   `Easy`   | [Python](./python/valid_palindrome.py), [Java](./java/ValidPalindrome.java) | 680       | `High` |
+
 ## LinkedList
+
+### Leetcode Problems
+
+Clone the problem list [here](https://leetcode.com/list/xij041s6)
 
 |  #   | Problem                                                                                                                                 | Difficulty |                                 Solution                                 | Follow-up |  Freq.   |
 | :--: | :-------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----------------------------------------------------------------------: | :-------- | :------: |
@@ -45,6 +74,7 @@ Clone the problem list [here](https://leetcode.com/list/x8iyupb5)
 ## Reference
 
 - [Cracking the Code Interview 6th edition](http://www.crackingthecodinginterview.com)
+- [Leetcode](https://leetcode.com/)
 
 ## Style Guilde
 
