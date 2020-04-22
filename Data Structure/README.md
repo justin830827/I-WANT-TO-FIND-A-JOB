@@ -37,7 +37,7 @@ A string is a data type used in programming, it is comprised of a set of charact
 
 ### String vs String Buffer vs String Builder
 
-This is a popular interview question in Java.
+This is a popular interview question in **Java**.
 
 |  Parameter  |               String               |                  String Buffer                   |            String Builder             |
 | :---------: | :--------------------------------: | :----------------------------------------------: | :-----------------------------------: |
@@ -69,7 +69,51 @@ Clone the problem list [here](https://leetcode.com/list/xij041s6)
 
 ## Stack and Queue
 
+### Leetcode Problems
+
+Clone the problem list [here](https://leetcode.com/list/xicdw3ps)
+
+|  #  | Problem | Difficulty | Solution | Follow-up | Freq. |
+| :-: | :------ | :--------: | :------: | :-------- | :---: |
+|     |         |            |          |           |       |
+
 ## Tree, Trie and Graph
+
+### Tree Traverse
+
+![alt text](../images/tree-traverse.png)
+
+### Algorithms
+
+The followings are some certain algorithm can be used on Tree, Trie, Graph structure.
+
+#### Morris Traversal
+
+Using Morris Traversal on tree structure, we can traverse the tree without using stack and recursion. i.e. The space complexity is O(1).
+
+```
+Step 1: Initialize current as root
+
+Step 2: While current is not NULL,
+
+    If current node have left child
+        a. Add the current node and its right subtree (cur and cur.right) to the rightmost node of current left subtree (the rightmost node in cur.left)
+
+        b. Go to this left child, i.e., current = current.left
+
+    Else
+        a. Add current’s value
+
+        b. Go to the right, i.e., current = current.right
+```
+
+### Leetcode Problems
+
+Clone the problem list [here](https://leetcode.com/list/xicd7w93)
+
+|  #  | Problem                                                                                       | Difficulty |                             Solution                             | Follow-up |  Freq.   |
+| :-: | :-------------------------------------------------------------------------------------------- | :--------: | :--------------------------------------------------------------: | :-------- | :------: |
+| 94  | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) |  `Medium`  | [Python](./python/binary_tree_inorder.py), [Java](./java/..java) | 144, 145  | `Medium` |
 
 ## Reference
 
