@@ -16,6 +16,7 @@ Clone the problem list [here](https://leetcode.com/list/xtpm1kjt)
 | 518 | [Coin Change 2]                                                                                 |  `Medium`  |                                 TODO                                  |                    | `Medium` |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) |            |                   [Python](./python/length_of_LIS)                    | 673, 334           | `Medium` |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/)                                         |  `Medium`  |                   [Python](./python/target_sum.py)                    |                    | `Medium` |
+| 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/)                                 |  `Medium`  |   [Python](./python/maximal_square.py), [Java](MaximalSquare.java)    | 85                 |  `Low`   |
 
 ## Resource
 
