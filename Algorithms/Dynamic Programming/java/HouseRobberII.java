@@ -12,12 +12,13 @@ import java.util.Arrays;
  * each house, determine the maximum amount of money you can rob tonight without
  * alerting the police.
  * 
- * Time Complexity: O(n), Space Complexity: O(1)
  */
 public class HouseRobberII {
     /**
      * @param nums: an interger array without negetive numbers.
      * @return the maximum amount of money
+     * 
+     *         Time Complexity: O(n), Space Complexity: O(1)
      */
     public int rob(int[] nums) {
         int n = nums.length;

@@ -8,6 +8,8 @@ class Solution:
     Now you have 2 symbols + and -. For each integer, you should choose one from + and - as its new symbol.
     Find out how many ways to assign symbols to make sum of integers equal to target S.
 
+    Idea of solution:
+
     Example:
         Input: nums is [1, 1, 1, 1, 1], S is 3. 
         Output: 5
@@ -20,8 +22,6 @@ class Solution:
 
         Return:
             the number of how many ways to assign symbols to make sum of integers equal to target S.
-
-        Idea of solution:
 
         Time Complextiy: O(n)
         Space Complexity: O(n)

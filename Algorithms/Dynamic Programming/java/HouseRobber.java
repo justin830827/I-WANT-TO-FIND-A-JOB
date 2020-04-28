@@ -9,12 +9,13 @@
  * each house, determine the maximum amount of money you can rob tonight without
  * alerting the police.
  * 
- * Time Complexity: O(n), Space Complexity: O(1)
  */
 public class HouseRobber {
     /**
      * @param nums: an integer array without negative numbers.
      * @return the maximum amount of money follows the robbing rule.
+     * 
+     *         Time Complexity: O(n), Space Complexity: O(1)
      */
     public int rob(int[] nums) {
         if (nums.length == 0)
