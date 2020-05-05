@@ -111,9 +111,10 @@ Step 2: While current is not NULL,
 
 Clone the problem list [here](https://leetcode.com/list/xicd7w93)
 
-|  #  | Problem                                                                                       | Difficulty |                             Solution                             | Follow-up |  Freq.   |
-| :-: | :-------------------------------------------------------------------------------------------- | :--------: | :--------------------------------------------------------------: | :-------- | :------: |
-| 94  | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) |  `Medium`  | [Python](./python/binary_tree_inorder.py), [Java](./java/..java) | 144, 145  | `Medium` |
+|  #  | Problem                                                                                                 | Difficulty |                                     Solution                                     | Follow-up |  Freq.   |
+| :-: | :------------------------------------------------------------------------------------------------------ | :--------: | :------------------------------------------------------------------------------: | :-------- | :------: |
+| 94  | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)           |  `Medium`  | [Python](./python/binary_tree_inorder.py), [Java](./java/BinaryTreeInorder.java) | 144, 145  | `Medium` |
+| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) |   `Easy`   |   [Python](./python/first_unique_char.py), [Java](./java/FirstUniqueChar.java)   | 451,      |  `High`  |
 
 ## Reference
 
