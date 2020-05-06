@@ -140,16 +140,16 @@ Space Complexity: O(2^n)
 
 Clone the problem list [here](https://leetcode.com/list/xt2fsyae)
 
-|  #  | Problem                                                              | Difficulty |    Type     |                                   Solution                                    | Follow-up |  Freq.   |
-| :-: | :------------------------------------------------------------------- | :--------: | :---------: | :---------------------------------------------------------------------------: | :-------- | :------: |
-| 78  | [Subsets](https://leetcode.com/problems/subsets/)                    |  `Medium`  | Combination |          [Python](./python/subsets.py), [Java](./java/Subsets.java)           | 90,       | `Medium` |
-| 90  | [Subsets II](https://leetcode.com/problems/subsets-ii/)              |  `Medium`  | Combination |         [Python](./python/subsetsII.py), [Java](./java/SubsetsII.py)          |           | `Medium` |
-| 39  | [Combination Sum](https://leetcode.com/problems/combination-sum/)    |  `Medium`  | Combination |   [Python](./python/combination_sum.py), [Java](./java/CombinationSum.java)   | 40, 77    | `Medium` |
-| 40  | [Combination Sum II](https://leetcode.com/problems/combination-sum/) |  `Medium`  | Combination | [Python](./python/combination_sumII.py), [Java](./java/CombinationSumII.java) |           | `Medium` |
-| 46  | [Permutations](https://leetcode.com/problems/permutations/)          |  `Medium`  | Permutation |     [Python](./python/permutations.py), [Java](./java/Permutations.java)      | 47, 31    |  `High`  |
-| 47  | [Permutations II](https://leetcode.com/problems/permutations-ii/)    |  `Medium`  | Permutation |   [Python](./python/permutationsII.py), [Java](./java/PermutationsII.java)    | 31, 267   | `Medium` |
-| 77  | [Combinations](https://leetcode.com/problems/combinations/)          |  `Medium`  | Combination |     [Python](./python/combinations.py), [Java](./java/Combinations.java)      | 40        | `Medium` |
-| 31  | [Next Permutation](https://leetcode.com/problems/next-permutation/)  |  `Medium`  | Permutation |  [Python](./python/next_permutaiton.py), [Java](./java/NextPermutation.java)  | 60        |  `High`  |
+|  #  | Problem                                                              | Difficulty |                                   Solution                                    | Follow-up | Comments    |
+| :-: | :------------------------------------------------------------------- | :--------: | :---------------------------------------------------------------------------: | :-------- | :---------- |
+| 78  | [Subsets](https://leetcode.com/problems/subsets/)                    |  `Medium`  |          [Python](./python/subsets.py), [Java](./java/Subsets.java)           | 90,       | Combination |
+| 90  | [Subsets II](https://leetcode.com/problems/subsets-ii/)              |  `Medium`  |         [Python](./python/subsetsII.py), [Java](./java/SubsetsII.py)          |           | Combination |
+| 39  | [Combination Sum](https://leetcode.com/problems/combination-sum/)    |  `Medium`  |   [Python](./python/combination_sum.py), [Java](./java/CombinationSum.java)   | 40, 77    | Combination |
+| 40  | [Combination Sum II](https://leetcode.com/problems/combination-sum/) |  `Medium`  | [Python](./python/combination_sumII.py), [Java](./java/CombinationSumII.java) |           | Combination |
+| 46  | [Permutations](https://leetcode.com/problems/permutations/)          |  `Medium`  |     [Python](./python/permutations.py), [Java](./java/Permutations.java)      | 47, 31    | Permutation |
+| 47  | [Permutations II](https://leetcode.com/problems/permutations-ii/)    |  `Medium`  |   [Python](./python/permutationsII.py), [Java](./java/PermutationsII.java)    | 31, 267   | Permutation |
+| 77  | [Combinations](https://leetcode.com/problems/combinations/)          |  `Medium`  |     [Python](./python/combinations.py), [Java](./java/Combinations.java)      | 40        | Combination |
+| 31  | [Next Permutation](https://leetcode.com/problems/next-permutation/)  |  `Medium`  |  [Python](./python/next_permutaiton.py), [Java](./java/NextPermutation.java)  | 60        | Permutation |
 
 ## Reference:
 

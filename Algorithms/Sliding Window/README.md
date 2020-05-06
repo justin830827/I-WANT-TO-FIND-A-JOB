@@ -66,6 +66,6 @@ public class Solution {
 
 Clone the problem list [here](https://leetcode.com/list/xicd07oh)
 
-|  #  | Problem                                                                                                                         | Difficulty | Solution | Follow-up | Freq.  |
-| :-: | :------------------------------------------------------------------------------------------------------------------------------ | :--------: | :------: | :-------- | :----: |
-|  3  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |  `Medium`  |          |           | `High` |
+|  #  | Problem                                                                                                                         | Difficulty | Solution | Follow-up |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------ | :--------: | :------: | :-------- |
+|  3  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |  `Medium`  |          |           |
