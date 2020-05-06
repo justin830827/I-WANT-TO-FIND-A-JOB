@@ -58,6 +58,6 @@ Reference: [HackEarth](https://www.hackerearth.com/practice/basic-programming/bi
 
 Clone the problem list [here](https://leetcode.com/list/x39dpzdr)
 
-|  #  | Problem                                                                                     | Difficulty |                                         Solution                                          | Follow-up |
+|  #  | Title                                                                                       | Difficulty |                                         Solution                                          | Follow-up |
 | :-: | :------------------------------------------------------------------------------------------ | :--------: | :---------------------------------------------------------------------------------------: | :-------- |
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) |  `Medium`  | [Python](./python/bitwise_and_number_range.py), [Java](./java/BitwiseANDNumberRange.java) |           |

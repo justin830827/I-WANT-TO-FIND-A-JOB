@@ -68,7 +68,7 @@ class Prime {
 
 ## Leetcode
 
-|  #   | Problem                                                                                                       | Difficulty |                                      Solution                                       | Follow-up |
+|  #   | Title                                                                                                         | Difficulty |                                      Solution                                       | Follow-up |
 | :--: | :------------------------------------------------------------------------------------------------------------ | :--------: | :---------------------------------------------------------------------------------: | :-------- |
 | 453  | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) |   `Easy`   | [Python](./python/min_moves_equal_array.py), [Java](./java/MinMovesEqualArray.java) | 462,      |
 | 1360 | [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)           |   `Easy`   |       [Python](./python/number_of_days.py), [Java](./java/NumberOfDays.java)        |           |

@@ -58,7 +58,7 @@ The second one is the correct way to aviod **overflow**, even though there won't
 
 Clone the problem list [here](https://leetcode.com/list/xicd2ynj)
 
-|  #   | Problem                                                                                                                                           | Difficulty |                                   Solution                                   | Follow-up   |
+|  #   | Title                                                                                                                                             | Difficulty |                                   Solution                                   | Follow-up   |
 | :--: | :------------------------------------------------------------------------------------------------------------------------------------------------ | :--------: | :--------------------------------------------------------------------------: | :---------- |
 | 278  | [First Bad Version](https://leetcode.com/problems/first-bad-version/)                                                                             |   `Easy`   | [Python](./python/first_bad_version.py), [Java](./java/FirstBadVersion.java) |             |
 | 704  | [Binary Search](https://leetcode.com/problems/binary-search/)                                                                                     |   `Easy`   |                     [Python](./python/binary_search.py)                      | 702, 74, 33 |

@@ -6,7 +6,7 @@
 
 Clone the problem list [here](https://leetcode.com/list/xtpm1kjt)
 
-|  #  | Problem                                                                                         | Difficulty |                               Solution                                | Follow-up          |
+|  #  | Title                                                                                           | Difficulty |                               Solution                                | Follow-up          |
 | :-: | :---------------------------------------------------------------------------------------------- | :--------: | :-------------------------------------------------------------------: | :----------------- |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/)                                     |   `East`   |  [Python](./python/house_robber.py), [Java](./java/HouseRobber.java)  | 213, 256, 152, 276 |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                               |  `Medium`  | [Python](./python/house_robber.py), [Java](./java/HouseRobberII.java) |                    |
