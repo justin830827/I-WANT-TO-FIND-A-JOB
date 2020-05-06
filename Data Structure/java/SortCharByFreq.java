@@ -60,9 +60,7 @@ public class SortCharByFreq {
         }
 
         PriorityQueue<Character> heap = new PriorityQueue<>((a, b) -> (cnt.get(b) - cnt.get(a)));
-        for (char c : cnt.keySet()) {
-            heap.offer(c);
-        }
+        heap.addAll(cnt.keySet());
 
         StringBuilder sb = new StringBuilder();
         while (!heap.isEmpty()) {

@@ -46,7 +46,7 @@ class Solution:
         Return:
             a new string with the characters from high occurence to low occurence.
 
-        Time Compexity: O(n)
+        Time Compexity: O(nlogk), where k is the number of distint characters
         Space Complexity: O(n)
         """
         cnt = collections.Counter(s)
