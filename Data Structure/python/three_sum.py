@@ -23,6 +23,9 @@ class Solution:
         nums.sort()
         res = []
         for i in range(len(nums) - 2):
+            # Break the loop if there is no possible solution. i.e. the min in array is greater than 0.
+            if nums[i] > 0:
+                break
             if i > 0 and nums[i] == nums[i-1]:
                 continue
             # Two pointer
@@ -34,9 +37,9 @@ class Solution:
                     left += 1
                     right -= 1
                     # Remove duplicates
-                    while (left < right and nums[left] == nums[left - 1]):
+                    while left < right and nums[left] == nums[left - 1]:
                         left += 1
-                    while (left < right and nums[right] == nums[right + 1]):
+                    while left < right and nums[right] == nums[right + 1]:
                         right -= 1
                 if target > 0:
                     right -= 1
