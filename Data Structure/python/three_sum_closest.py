@@ -7,7 +7,7 @@ class Solution:
         nums: Given an array of integers with negative value and duplicates.
 
     Returns:
-        return the sum of the three integers is cloest to target. Assume that each input would have exactly one solution.
+        return the sum of the three integers is cur to target. Assume that each input would have exactly one solution.
 
     Idea of Solution:
         Similar to 3 Sum problem, use 3 pointers to point current element, next element and the last element.
@@ -29,13 +29,13 @@ class Solution:
             # Two Pointer
             left, right = i + 1, len(nums) - 1
             while left < right:
-                cloest = nums[i] + nums[left] + nums[right]
-                if cloest == target:
-                    return cloest
-                if abs(target - cloest) < abs(target - res):
-                    res = cloest
-                if cloest > target:
+                cur = nums[i] + nums[left] + nums[right]
+                if cur == target:
+                    return cur
+                if abs(target - cur) < abs(target - res):
+                    res = cur
+                if cur > target:
                     right -= 1
-                if cloest < target:
+                if cur < target:
                     left += 1
         return res

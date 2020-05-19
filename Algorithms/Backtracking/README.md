@@ -40,26 +40,26 @@ def helper(self, res: List[any], cur: List[any], arr: List[any], start: int) -> 
 ```python
 def backtracking(self, arr: List[any]) -> List[any]:
     res = []    # A list to save the results
-    if not res: return res  # Corner case
-    visited = [False for _ in range(len(arr))]    # A list to record the points have been visited
-    self.helper(res, [], nums, visited) # Call the initial recursion
+    if not arr: return res  # Corner case
+    seen = [False for _ in range(len(arr))]    # A list to record the points have been seen
+    self.helper(res, [], nums, seen) # Call the initial recursion
 
     return res
 
-def helper(self, res: List[any], cur: List[any], arr: List[any], visited: List[bool]) -> None:
+def helper(self, res: List[any], cur: List[any], arr: List[any], seen: List[bool]) -> None:
     if len(cur) == len(arr):
         res.append(cur[:]) # Note: use cur[:] to treat as different object.
     for i in range(len(arr)):
-        if visited[i]:  # Skip visted point
+        if seen[i]:  # Skip visted point
             continue
-        if i > 0 and nums[i] == nums[i-1] and not visited[i-1]: # Optional: skip duplicates
+        if i > 0 and nums[i] == nums[i-1] and not seen[i-1]: # Optional: skip duplicates
             continue
         if g(cur):  # Optional: backtrack on certain condition
             cur.append(arr[i]) # Choose
-            visited[i] = True   # Choose, update visited
-            helper(res, cur, arr, visited) # Explore
+            seen[i] = True   # Choose, update seen
+            helper(res, cur, arr, seen) # Explore
             cur.pop()   # Un-choose
-            visited[i] = False
+            seen[i] = False
 
 ```
 
@@ -92,7 +92,6 @@ private void helper(List<List<Integer>> res, List<Integer> cur, int[] nums, int 
             helper(res, cur, nums, i + 1);  // Explore
             cur.remove(cur.size() - 1); // Un-choose
         }
-
     }
 }
 
@@ -104,30 +103,29 @@ private void helper(List<List<Integer>> res, List<Integer> cur, int[] nums, int 
 public List<List<Integer>> backtracking(int[] nums) {
     List<List<Integer>> res = new ArrayList<>();    // A ArrayList to save the results.
     if(nums.length == 0) return res;
-    boolean[] visited = new boolean[nums.length];   // A boolean list to record the points have been. visited
-    helper(res, new ArrayList<>(), nums, visited);  // Call the inital recursion.
+    boolean[] seen = new boolean[nums.length];   // A boolean list to record the points have been. seen
+    helper(res, new ArrayList<>(), nums, seen);  // Call the inital recursion.
 
     return res;
 }
 
-private void helper(List<List<Integer>> res, List<Integer> cur, int[] nums, boolean[] visited){
+private void helper(List<List<Integer>> res, List<Integer> cur, int[] nums, boolean[] seen){
     if (cur.size() == nums.length) {
         res.add(new ArrayList(cur)); // Note: create a new ArrayList to treat as different object.
     }
 
     for (int i = 0; i < nums.length; i++) {
-        if (visited[i]) // Skip visited point
+        if (seen[i]) // Skip seen point
             continue;
-        if (i > 0 && nums[i] == nums[i-1] && !visited[i])   // Optional: skip duplicates
+        if (i > 0 && nums[i] == nums[i-1] && !seen[i])   // Optional: skip duplicates
             continue;
         if (g(cur)) {       // Optional: backtrack on certain condition
             cur.add(nums[i]);   // Choose
-            visited[i] = true;  // Choose, update visited
-            helper(res, cur, nums, visited);    // Explore
+            seen[i] = true;  // Choose, update seen
+            helper(res, cur, nums, seen);    // Explore
             cur.remove(cur.size() - 1); // Un-choose
-            visited[i] = false;
+            seen[i] = false;
         }
-
     }
 }
 ```
