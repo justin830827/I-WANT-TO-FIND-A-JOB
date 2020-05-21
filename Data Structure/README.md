@@ -93,13 +93,14 @@ Clone the problem list [here](https://leetcode.com/list/xicddurd)
 
 Clone the problem list [here](https://leetcode.com/list/xij041s6)
 
-|  #   | Title                                                                                                                                   | Difficulty |                                   Solution                                    | Comment |
-| :--: | :-------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :---------------------------------------------------------------------------: | :------ |
-|  19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)                                     |  `Medium`  |   [Python](./python/remove_nth_node.py), [Java](./java/RemoveNthNode.java)    |         |
-|  83  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)                                 |   `Easy`   | [Python](./python/remove_duplicates.py), [Java](./java/RemoveDuplicates.java) |         |
-| 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                                                               |   `Easy`   |                                                                               |         |
-| 234  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                         |   `Easy`   |                                                                               |         |
-| 1171 | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) |  `Medium`  |   [Python](./python/remove_zero_sum.py), [Java](./java/RemoveZeroSum.java)    |         |
+|  #   | Title                                                                                                                                   | Difficulty |                                   Solution                                    | Comment    |
+| :--: | :-------------------------------------------------------------------------------------------------------------------------------------- | :--------: | :---------------------------------------------------------------------------: | :--------- |
+|  19  | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)                                     |  `Medium`  |   [Python](./python/remove_nth_node.py), [Java](./java/RemoveNthNode.java)    |            |
+|  82  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)                           |  `Medium`  |  [Python](./python/remove_duplicates_II.py), [Java](RemoveDuplicatesII.java)  | Dummy node |
+|  83  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)                                 |   `Easy`   | [Python](./python/remove_duplicates.py), [Java](./java/RemoveDuplicates.java) |            |
+| 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                                                               |   `Easy`   |                                                                               |            |
+| 234  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                         |   `Easy`   |                                                                               |            |
+| 1171 | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) |  `Medium`  |   [Python](./python/remove_zero_sum.py), [Java](./java/RemoveZeroSum.java)    |            |
 
 ## Stack and Queue
 
