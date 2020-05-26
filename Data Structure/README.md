@@ -81,11 +81,12 @@ This is a popular interview question in **Java**.
 
 Clone the problem list [here](https://leetcode.com/list/xicddurd)
 
-|  #  | Problem                                                                                                 | Difficulty |                                   Solution                                   | Comment                                                                  |
-| :-: | :------------------------------------------------------------------------------------------------------ | :--------: | :--------------------------------------------------------------------------: | :----------------------------------------------------------------------- |
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                     |   `Easy`   | [Python](./python/valid_palindrome.py), [Java](./java/ValidPalindrome.java)  |                                                                          |
-| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) |   `Easy`   | [Python](./python/first_unique_char.py), [Java](./java/FirstUniqueChar.java) | HashTable: O(N)                                                          |
-| 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)             |  `Medium`  | [Python](./python/sort_char_by_freq.py), [Java](./java/SortCharByFreq.java)  | 1. HashTable + Heap/Sort: O(NlogK) ~ O(NlogN) </br> 2. Bucket Sort: O(N) |
+|  #  | Problem                                                                                                       | Difficulty |                                          Solution                                           | Comment                                                                  |
+| :-: | :------------------------------------------------------------------------------------------------------------ | :--------: | :-----------------------------------------------------------------------------------------: | :----------------------------------------------------------------------- |
+| 17  | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |  `Medium`  | [Python](./python/phone_letter_combinations.py), [Java](./java/PhoneLetterCombination.java) | Combination: O(3^N \* 4^M)                                               |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                           |   `Easy`   |         [Python](./python/valid_palindrome.py), [Java](./java/ValidPalindrome.java)         |                                                                          |
+| 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)       |   `Easy`   |        [Python](./python/first_unique_char.py), [Java](./java/FirstUniqueChar.java)         | HashTable: O(N)                                                          |
+| 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)                   |  `Medium`  |         [Python](./python/sort_char_by_freq.py), [Java](./java/SortCharByFreq.java)         | 1. HashTable + Heap/Sort: O(NlogK) ~ O(NlogN) </br> 2. Bucket Sort: O(N) |
 
 ## LinkedList
 
